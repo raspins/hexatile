@@ -7,7 +7,10 @@ lazy val root = (project in file("."))
   .settings(
     name := "Hexatile",
     scalaJSUseMainModuleInitializer := true,
-    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "2.8.1"
+    libraryDependencies ++= Seq(
+      "org.scala-js" %%% "scalajs-dom" % "2.8.1",
+      "org.scalatest" %% "scalatest" % "3.2.13" % Test
+    )
   )
 
 
