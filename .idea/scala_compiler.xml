@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="Hexatile,hexatile_1424" />
+    <profile name="sbt 1" modules="hexatile_1424" />
+    <profile name="sbt 2" modules="Hexatile">
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-js/scalajs-compiler_2.13.18/1.20.2/scalajs-compiler_2.13.18-1.20.2.jar" />
+      </plugins>
+    </profile>
   </component>
 </project>
