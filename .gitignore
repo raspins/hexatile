@@ -2,6 +2,7 @@
 
 !.gitignore
 
+.cache
 project/target
 project/project
 target
